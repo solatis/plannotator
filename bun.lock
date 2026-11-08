@@ -25,17 +25,17 @@
     },
     "apps/cline-plugin": {
       "name": "@plannotator/cline",
-      "version": "0.28.51",
+      "version": "0.28.55",
     },
     "apps/dsh-plugin": {
       "name": "@plannotator/dsh",
-      "version": "0.28.51",
+      "version": "0.28.55",
     },
     "apps/feedback-service": {
       "name": "@plannotator/feedback-service",
       "version": "0.1.0",
       "devDependencies": {
-        "@cloudflare/workers-types": "^4.20241218.0",
+        "@cloudflare/workers-types": "^5.20261101.1",
         "wrangler": "^4.151.2",
       },
     },
@@ -52,7 +52,7 @@
         "react-dom": "^19.3.1",
       },
       "devDependencies": {
-        "@cloudflare/workers-types": "^4.20241218.0",
+        "@cloudflare/workers-types": "^5.20261101.1",
         "@tailwindcss/vite": "^4.3.3",
         "@types/react": "^19.3.0",
         "@types/react-dom": "^19.3.0",
@@ -132,7 +132,7 @@
     },
     "apps/opencode-plugin": {
       "name": "@plannotator/opencode",
-      "version": "0.28.51",
+      "version": "0.28.55",
       "devDependencies": {
         "@opencode-ai/plugin": "1.19.3",
         "@opencode/plugin": "2.0.32",
@@ -145,13 +145,13 @@
       "name": "@plannotator/paste-service",
       "version": "0.1.0",
       "devDependencies": {
-        "@cloudflare/workers-types": "^4.20241218.0",
+        "@cloudflare/workers-types": "^5.20261101.1",
         "wrangler": "^4.151.2",
       },
     },
     "apps/pi-extension": {
       "name": "@plannotator/pi-extension",
-      "version": "0.28.51",
+      "version": "0.28.55",
       "dependencies": {
         "@joplin/turndown-plugin-gfm": "^1.0.68",
         "@pierre/diffs": "1.5.2",
@@ -194,7 +194,7 @@
       "name": "@plannotator/relay",
       "version": "0.0.1",
       "devDependencies": {
-        "@cloudflare/workers-types": "^4.20241218.0",
+        "@cloudflare/workers-types": "^5.20261101.1",
         "@plannotator/core": "workspace:*",
         "typescript": "~5.8.2",
         "wrangler": "^4.151.2",
@@ -225,7 +225,7 @@
       "name": "@plannotator/telemetry",
       "version": "0.1.0",
       "devDependencies": {
-        "@cloudflare/workers-types": "^4.20241218.0",
+        "@cloudflare/workers-types": "^5.20261101.1",
         "wrangler": "^4.151.2",
       },
     },
@@ -266,7 +266,7 @@
       "name": "@plannotator/waitlist-service",
       "version": "0.1.0",
       "devDependencies": {
-        "@cloudflare/workers-types": "^4.20241218.0",
+        "@cloudflare/workers-types": "^5.20261101.1",
         "wrangler": "^4.151.2",
       },
     },
@@ -337,6 +337,7 @@
         "@plannotator/core": "workspace:*",
         "@plannotator/guide-viewer": "workspace:*",
         "@plannotator/review-editor": "workspace:*",
+        "@plannotator/system": "workspace:*",
         "@plannotator/ui": "workspace:*",
         "motion": "^14.4.0",
         "react": "^19.3.1",
@@ -386,13 +387,14 @@
     },
     "packages/server": {
       "name": "@plannotator/server",
-      "version": "0.28.51",
+      "version": "0.28.55",
       "dependencies": {
         "@modelcontextprotocol/server": "2.3.1",
         "@pierre/diffs": "1.5.2",
         "@plannotator/ai": "workspace:*",
         "@plannotator/core": "workspace:*",
         "@plannotator/shared": "workspace:*",
+        "@plannotator/system": "workspace:*",
         "@plannotator/t3-code": "workspace:*",
         "@plannotator/webtui": "0.1.0",
         "chokidar": "^5.0.0",
@@ -772,7 +774,7 @@
 
     "@cloudflare/workerd-windows-64": ["@cloudflare/workerd-windows-64@1.20261019.1", "", { "os": "win32", "cpu": "x64" }, "sha512-z49fvKTETMCnG6wnMcQwxx9CpryFceiKz04FRjq26EkhCyzRNJ6c3UXhyZz3r5f1CXnnBZc5DcU8ZouPkUJCqw=="],
 
-    "@cloudflare/workers-types": ["@cloudflare/workers-types@4.20260702.1", "", {}, "sha512-mOhf5TUEB1m2vPrxtqoIGfz0fUC9xyxRDx5gWHy5s+OCo6dcV+g7wI1R7gYCMFohhqF/2y2xeKVwMwCJjfn/WA=="],
+    "@cloudflare/workers-types": ["@cloudflare/workers-types@5.20261101.1", "", {}, "sha512-malJEW9V9x+MygAc9RDGiWF0I8HFYfMzY5CXMn3tbzCxUiQBHtHWUTG5aFmO9oaFenc2z5OyT7e+a46ZaGs3cQ=="],
 
     "@codemirror/autocomplete": ["@codemirror/autocomplete@6.20.3", "", { "dependencies": { "@codemirror/language": "^6.0.0", "@codemirror/state": "^6.0.0", "@codemirror/view": "^6.17.0", "@lezer/common": "^1.0.0" } }, "sha512-tlosUqb+3BbxCxZdu4tKeRghPFC+QM7q4X5YhKV2eCmPG+1r2F3f4AaSz5sCrFqUtX4Jh20VFTKecl16MgiV9g=="],
 
